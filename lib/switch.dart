@@ -1,27 +1,22 @@
 import 'package:flutter/material.dart';
 import 'package:test_app/utils/colors.dart';
- 
+
  class SwitchApp extends StatefulWidget
  {
   @override
   State<StatefulWidget> createState() {
-    
     return SwitchAppState();
   }
-
  }
- 
- class SwitchAppState extends State<SwitchApp>
+class SwitchAppState extends State<SwitchApp>
  {
-   bool value =false;
-  @override
+   bool isSwitched  =false;
+   @override
   Widget build(BuildContext context) {
-
-    String title = value ? "change to morning mode" : "change to night mode";
-    String text = value ? "Good night!" : "Good morning!";
-    String path = value ? "assets/images/night.png" : "assets/images/morning.png";
-
-
+     print(isSwitched);
+    String title = isSwitched ? "change to morning mode" : "change to night mode";
+    String text = isSwitched ? "Good night!" : "Good morning!";
+    String path = isSwitched ? "assets/images/night.png" : "assets/images/morning.png";
    return Scaffold(
      appBar: AppBar(
        backgroundColor: Colors.purple[900],
@@ -35,10 +30,11 @@ import 'package:test_app/utils/colors.dart';
             height: 50.0,
             width: 70.0,
             // color: ColorConstants.primaryColor,
-             child: Switch(value: value,onChanged:(bool value) 
-             {setState(() {
-               value = !value;
-              
+             child: Switch(
+                 value: isSwitched,
+                 onChanged:(value) {
+                   setState(() {
+               isSwitched = value;
              });
              }),
           ),
@@ -57,8 +53,6 @@ import 'package:test_app/utils/colors.dart';
         ],
       ),
      ),
-
    );
   }
-
  }

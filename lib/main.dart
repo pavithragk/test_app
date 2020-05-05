@@ -1,7 +1,9 @@
 
 import 'package:flutter/material.dart';
+import 'package:test_app/cart.dart';
 import 'package:test_app/fonts.dart';
 import 'package:test_app/image_picker.dart';
+import 'package:test_app/switch.dart';
 // import 'package:test_app/toggel.dart';
 // import 'package:test_app/traffic.dart';
 void main() => runApp(MyApp());
@@ -18,7 +20,9 @@ class MyApp extends StatelessWidget
       // home: Traffic()
       // home: Toggle(),
       // home: Font(),
-      home: Imagepicker(),
+      // home: Imagepicker(),
+      // home: SwitchApp(),
+      home: CartApp(),
 
     );
   }
