@@ -10,7 +10,7 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		LxX97FZxufchaLLu0JJJNV8Gx6Y=
+		Sd14DNXwYaOWIEiFUovwXV+Vjts=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -18,9 +18,9 @@
 		</data>
 		<key>flutter_assets/LICENSE</key>
 		<data>
-		kWO34ch6MrJnsUd50QTjV8uYtp0=
+		3JXN0BGn9d4Wn4RJzGOf7+k6vHI=
 		</data>
-		<key>flutter_assets/assets/fonts/Gotham Bold/Gotham Bold.otf</key>
+		<key>flutter_assets/assets/fonts/Gotham%20Bold/Gotham%20Bold.otf</key>
 		<data>
 		rNi+2g09DRCPlAks7OJ9GrdN2to=
 		</data>
@@ -28,17 +28,25 @@
 		<data>
 		M2OhSRFyBq6k7L7zQ8EzoqCFVPw=
 		</data>
+		<key>flutter_assets/assets/images/morning.png</key>
+		<data>
+		ROQgCyBy/tG3xVpOLKnVbKqn4ps=
+		</data>
+		<key>flutter_assets/assets/images/night.png</key>
+		<data>
+		b80IAEJ2iUypSHNDzO/jXBJ7lnM=
+		</data>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.ttf</key>
 		<data>
 		nIzDzw7hjOThppiX5OleKNAxtqM=
 		</data>
 		<key>flutter_assets/isolate_snapshot_data</key>
 		<data>
-		Z2ICrHK+jrge57+K8dZOkuVFwKY=
+		Vx9/h2t0G33ZxH1J90DySlPgX6E=
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		tFzv/RUcwSO7OjgbaShlzmhDD/o=
+		IDzbkg6rpI+w0KMqYuGGBV9d33Y=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -46,7 +54,7 @@
 		</data>
 		<key>flutter_assets/vm_snapshot_data</key>
 		<data>
-		9/Sg3xz36iaqQAEPm7T0k2zXcgk=
+		Di5Nra7zi8k7NV+rMv+lYeRWveM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -55,11 +63,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LxX97FZxufchaLLu0JJJNV8Gx6Y=
+			Sd14DNXwYaOWIEiFUovwXV+Vjts=
 			</data>
 			<key>hash2</key>
 			<data>
-			/7mNOxnbGmbSi52mdydXxsRNFdGGfTrwYsnTh692ylA=
+			Na2JuGRZmjVHQ5yJKCWDWRKr1mq0VIEKeDnvpxsJuZo=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -77,14 +85,14 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kWO34ch6MrJnsUd50QTjV8uYtp0=
+			3JXN0BGn9d4Wn4RJzGOf7+k6vHI=
 			</data>
 			<key>hash2</key>
 			<data>
-			A0FtZO/Eb49HhqCrOOeNquaSr1+Fujlx3yXD4sgNoUU=
+			ENPmmcQLRSA/wr5+2HOUnjq9Ii18SgHYBP/A1KDuepo=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/fonts/Gotham Bold/Gotham Bold.otf</key>
+		<key>flutter_assets/assets/fonts/Gotham%20Bold/Gotham%20Bold.otf</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -106,6 +114,28 @@
 			LIDIDF21/iM015l9FJmP1LYyOzVEJYbDj+plVR1/OOk=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/images/morning.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ROQgCyBy/tG3xVpOLKnVbKqn4ps=
+			</data>
+			<key>hash2</key>
+			<data>
+			cMqaCkfKb9ed+rbUKXS7vyEOmKxHgw7V7VfD10kr6K8=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/night.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			b80IAEJ2iUypSHNDzO/jXBJ7lnM=
+			</data>
+			<key>hash2</key>
+			<data>
+			q7j1EY3a3wsPPLmoEkmcf02s2MnXBZaJO1ZSS6Ee3ww=
+			</data>
+		</dict>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.ttf</key>
 		<dict>
 			<key>hash</key>
@@ -121,22 +151,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Z2ICrHK+jrge57+K8dZOkuVFwKY=
+			Vx9/h2t0G33ZxH1J90DySlPgX6E=
 			</data>
 			<key>hash2</key>
 			<data>
-			kcz1ANP+MdH/BQZeW3zEkSAvrAvZQ5Ei0fQkWfzKxSg=
+			KplYQxmt8n4/OmzPRr5FW7Dr/ykW7zV+gdHs6OqTbUo=
 			</data>
 		</dict>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tFzv/RUcwSO7OjgbaShlzmhDD/o=
+			IDzbkg6rpI+w0KMqYuGGBV9d33Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			r9xUtNZwY2j9k7MaCU2D1cpe3sRVz0YwIJH0oG4Eaj0=
+			gHKLrlQabX9xs3fOUDcIv5kNT1i2PHU3kp463vQUA1k=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -154,11 +184,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9/Sg3xz36iaqQAEPm7T0k2zXcgk=
+			Di5Nra7zi8k7NV+rMv+lYeRWveM=
 			</data>
 			<key>hash2</key>
 			<data>
-			D6DyCLPkZxFO4v3Insr+wJXtdDwBQpE12Cia0eqJyuQ=
+			UNDN15SnD+ULxDiLMG6hYN22JLGntlZiJ3vl4gpCGT4=
 			</data>
 		</dict>
 	</dict>

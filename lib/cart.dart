@@ -13,8 +13,8 @@ import 'package:flutter/material.dart';
 
  class CartAppState extends State<CartApp>
  {
-   String value;
-   List<String> listItems = ["1","2","Third","4"];
+  //  String value;
+   List<String> listItems = ['1','2','3','4'];
    TextEditingController controller = TextEditingController();
   @override
   Widget build(BuildContext context) {
@@ -62,24 +62,31 @@ import 'package:flutter/material.dart';
                       children: <Widget>[
                         Padding(
                           padding: const EdgeInsets.only(left: 20.0),
-                          child: Column(
-                            children: <Widget>[
-                              Text('List Items'),
-                            ],
+                          child: Container(
+                            child: Row(
+                              children: <Widget>[
+                                Text('List Items'),
+                                 Padding(
+                                   padding: const EdgeInsets.only(left: 100.0),
+                                   child: Column(
+                                     children: <Widget>[
+                                       Text('Delete'),
+                                     ],
+                                   ),
+                                 ),
+                              ],
+                            ),
                           ),
                         ),
-                        Padding(
-                          padding: const EdgeInsets.only(left: 100.0),
-                          child: Text('Delete'),
-                        ),
+                        
                       ],
                     ),
                   ),
-                  Padding(
-                    padding: const EdgeInsets.only(top: 20.0),
-                    child: const Divider( height: 1.0,
-                    color: Colors.black,),
-                  ),
+                  // Padding(
+                  //   padding: const EdgeInsets.only(top: 20.0),
+                  //   child: const Divider( height: 1.0,
+                  //   color: Colors.black,),
+                  // ),
                 ],
               ),
             ),
@@ -91,12 +98,22 @@ import 'package:flutter/material.dart';
                     itemCount: listItems.length,
                      itemBuilder: (context, index) {
                        return ListTile(
-                      title: Text(listItems[index]),
+                       title: Text(listItems[index]),
+                      leading: IconButton(
+                        icon: Icon(
+                          Icons.delete,color: Colors.red,), 
+                          onPressed: (){
+                            setState(() {
+                              listItems.removeLast();
+                            }); 
+                          }),
                     );
                    },
+                   
                   ),
               ),
             ),
+            
           ],
         
         ),
